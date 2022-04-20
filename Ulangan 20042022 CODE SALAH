@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    /*
+    nilai tugas=30%
+    nilai uts=30%
+    nilai uas=40%
+    */
+    int nilai;
+    cout<<"Masukkan nilai tugas =";cin>> nilai;
+    cout<<"Masukkan nilai uts=";cin>> nilai;
+    cout<<"Masukkan nilai uas=";cin>> nilai;
+    if (nilai>=100 ||nilai <0) {
+        cout<<"Nilai tidak bisa diatas 100 atau dibawah nol";
+    {
+/*
+    (tugas *0.3) + (uts *0.3) + (uas *0.4){
+        cout<<"nilai akhir=";
+        */
+}
+    }
+    return 0;
+    
+}//end of main function
