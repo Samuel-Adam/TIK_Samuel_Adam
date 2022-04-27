@@ -6,9 +6,10 @@ int main(){
     float a = sqrt(15);//menghitung akar kuadrat
     float b = cbrt(27);//menghuitung akar kubik
     float c = pow(4.334,2.231);//menghitung pangkat
-    float d = sin(15);
-    float e = cos(15);
-    float f = tan(15);
+    float d = sin(15);//menghitung sin
+    float e = cos(15);//menghitung cos
+    float f = tan(15);//menghitung tan
+    float g = round (d);//membulatkan bilangan
     
     cout<<a<<endl;
 cout<<b<<endl;
@@ -16,6 +17,7 @@ cout<<c<<endl;
 cout<<d<<endl;
 cout<<e<<endl;
 cout<<f<<endl;
+cout<<g<<endl;
     return 0;
     
     
